@@ -12,15 +12,210 @@
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
 <title>lesson_01</title>
-<!-- write your code here -->
+<link rel="preload" href="./fonts/roboto-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/roboto-cyrillic-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/roboto-cyrillic-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/roboto-cyrillic-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/roboto-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/roboto-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<!-- RUBIK -->
+<link rel="preload" href="./fonts/rubik-cyrillic-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-cyrillic-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-cyrillic-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-cyrillic-ext-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-cyrillic-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-cyrillic-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-cyrillic-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-latin-ext-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./fonts/rubik-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-  #animation_container, #_preload_div_ {
-	position:absolute;
-	margin:auto;
-	left:0;right:0;
-	top:0;bottom:0;
-  }
+    /* ===== RESET ===== */
+    *, *::before, *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    /* ===== CONTAINERS ===== */
+    #animation_container {
+        position: absolute;
+        margin: auto;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+    }
+
+    canvas {
+        display: block;
+    }
+
+    /* ===== PRELOADER ===== */
+    #_preload_div_ {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #1a1a2e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+
+    #_preload_div_ img {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    /* ===== ROBOTO ===== */
+    @font-face {
+        font-family: 'Roboto';
+        src: url('./fonts/roboto-cyrillic-400-normal.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Roboto';
+        src: url('./fonts/roboto-cyrillic-700-normal.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Roboto';
+        src: url('./fonts/roboto-cyrillic-ext-400-normal.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Roboto';
+        src: url('./fonts/roboto-cyrillic-ext-700-normal.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Roboto';
+        src: url('./fonts/roboto-latin-ext-400-normal.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Roboto';
+        src: url('./fonts/roboto-latin-ext-700-normal.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* ===== RUBIK ===== */
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-cyrillic-300-normal.woff2') format('woff2');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-cyrillic-400-normal.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-cyrillic-500-normal.woff2') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-cyrillic-700-normal.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-cyrillic-ext-300-normal.woff2') format('woff2');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-cyrillic-ext-400-normal.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-cyrillic-ext-500-normal.woff2') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-cyrillic-ext-700-normal.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-latin-ext-300-normal.woff2') format('woff2');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-latin-ext-400-normal.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-latin-ext-500-normal.woff2') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Rubik';
+        src: url('./fonts/rubik-latin-ext-700-normal.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
 </style>
+<script>
+    document.fonts.load("300 16px 'Rubik'");
+    document.fonts.load("400 16px 'Rubik'");
+    document.fonts.load("500 16px 'Rubik'");
+    document.fonts.load("700 16px 'Rubik'");
+    document.fonts.load("400 16px 'Roboto'");
+    document.fonts.load("700 16px 'Roboto'");
+    document.fonts.ready.then(function() {
+        console.log("✅ All fonts loaded!");
+    });
+</script>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="lesson_01.js"></script>
 <script>
@@ -65,17 +260,34 @@ function handleComplete(evt,comp) {
 	//Code to support hidpi screens and responsive scaling.
 	AdobeAn.makeResponsive(true,'both',true,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
 	AdobeAn.compositionLoaded(lib.properties.id);
-	fnStartAnimation();
+	document.fonts.ready.then(function() {
+        var ctx = canvas.getContext("2d");
+        ctx.font = "300 16px 'Rubik'";
+        ctx.fillText("ү ө и й", -100, -100);
+        ctx.font = "400 16px 'Rubik'";
+        ctx.fillText("ү ө и й", -100, -100);
+        ctx.font = "500 16px 'Rubik'";
+        ctx.fillText("ү ө и й", -100, -100);
+        ctx.font = "700 16px 'Rubik'";
+        ctx.fillText("ү ө и й", -100, -100);
+        ctx.font = "400 16px 'Roboto'";
+        ctx.fillText("ү ө и й", -100, -100);
+        ctx.font = "700 16px 'Roboto'";
+        ctx.fillText("ү ө и й", -100, -100);
+        console.log("✅ Fonts primed — starting animation!");
+        fnStartAnimation();
+    });
 }
 </script>
 <!-- write your code here -->
 </head>
-<body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1920px; height:1080px">
-		<canvas id="canvas" width="1920" height="1080" style="position: absolute; display: none; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1920px; height:1080px; position: absolute; left: 0px; top: 0px; display: none;">
-		</div>
-	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:1080px; width: 1920px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif style='vertical-align: middle; max-height: 100%'/></div>
+<body onload="init();">
+    <div id="animation_container" style="width:1920px; height:1080px;">
+        <canvas id="canvas" width="1920" height="1080" style="position:absolute; display:none;"></canvas>
+        <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1920px; height:1080px; position:absolute; left:0; top:0; display:none;"></div>
+    </div>
+    <div id="_preload_div_">
+        <img src="images/_preloader.gif" />
+    </div>
 </body>
 </html>
