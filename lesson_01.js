@@ -51,7 +51,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_14 = function() {
+(lib.CachedBmp_10 = function() {
 	this.initialize(ss["lesson_01_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -3379,7 +3379,7 @@ if (reversed == null) { reversed = false; }
 				saveState();
 				createjs.Tween.get(exportRoot).to({ alpha: 0 }, 80).call(function() {
 					exportRoot.alpha = 1;
-					exportRoot.gotoAndStop(22);
+					exportRoot.gotoAndStop(1);
 				});
 			});
 		}
@@ -10133,7 +10133,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_d.name = "btn_answer_d";
 	this.btn_answer_d.setTransform(1549.85,865.1);
 
-	this.instance_7 = new lib.CachedBmp_14();
+	this.instance_7 = new lib.CachedBmp_10();
 	this.instance_7.setTransform(1415.55,823.75,0.5,0.5);
 
 	this.text_5 = new cjs.Text("В. 7000", "38px 'Rubik SemiBold'");
@@ -10147,7 +10147,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_c.name = "btn_answer_c";
 	this.btn_answer_c.setTransform(1549.85,760.6);
 
-	this.instance_8 = new lib.CachedBmp_14();
+	this.instance_8 = new lib.CachedBmp_10();
 	this.instance_8.setTransform(1415.55,719.25,0.5,0.5);
 
 	this.text_6 = new cjs.Text("Б. 8500", "38px 'Rubik SemiBold'");
@@ -10161,7 +10161,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_b.name = "btn_answer_b";
 	this.btn_answer_b.setTransform(1549.85,654.9);
 
-	this.instance_9 = new lib.CachedBmp_14();
+	this.instance_9 = new lib.CachedBmp_10();
 	this.instance_9.setTransform(1415.55,613.55,0.5,0.5);
 
 	this.btn_label_a = new cjs.Text("A. 8000", "38px 'Rubik SemiBold'");
@@ -10176,7 +10176,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_a.name = "btn_answer_a";
 	this.btn_answer_a.setTransform(1549.85,547.35);
 
-	this.instance_10 = new lib.CachedBmp_14();
+	this.instance_10 = new lib.CachedBmp_10();
 	this.instance_10.setTransform(1415.55,506,0.5,0.5);
 
 	this.ex5_btn_gt = new lib.ex5_buttons();
