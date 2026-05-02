@@ -51,7 +51,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_10 = function() {
+(lib.CachedBmp_18 = function() {
 	this.initialize(ss["lesson_01_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -864,7 +864,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.setTransform(186.075,65.25);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFCF29").s().p("A6uKNQiWgBAAiWIAAvsQAAiWCWABMA1dAAAQCWgBAACWIAAPsQAACWiWABg");
+	this.shape_3.graphics.f("#FFCF29").s().p("A6uKNQiWAAAAiXIAAvsQAAiWCWABMA1dAAAQCWgBAACWIAAPsQAACXiWAAg");
 	this.shape_3.setTransform(186.075,65.25);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
@@ -899,7 +899,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.setTransform(186.075,65.25);
 
 	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#FFCF29").s().p("A6uKNQiWgBAAiWIAAvsQAAiWCWABMA1dAAAQCWgBAACWIAAPsQAACWiWABg");
+	this.shape_3.graphics.f("#FFCF29").s().p("A6uKNQiWAAAAiXIAAvsQAAiWCWABMA1dAAAQCWgBAACWIAAPsQAACXiWAAg");
 	this.shape_3.setTransform(186.075,65.25);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
@@ -1032,9 +1032,9 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.txt_label = new cjs.Text("", "35px 'Rubik'", "#CCCCCC");
+	this.txt_label = new cjs.Text("", "35px 'Arial'", "#CCCCCC");
 	this.txt_label.name = "txt_label";
-	this.txt_label.lineHeight = 43;
+	this.txt_label.lineHeight = 37;
 	this.txt_label.lineWidth = 146;
 	this.txt_label.parent = this;
 	this.txt_label.setTransform(-73.15,-22.95);
@@ -1112,8 +1112,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("=", "50px 'Rubik SemiBold'");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("=", "50px 'Arial'");
+	this.text.lineHeight = 52;
 	this.text.parent = this;
 	this.text.setTransform(40.2,15.7);
 
@@ -1152,8 +1152,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("<", "50px 'Rubik SemiBold'");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("<", "50px 'Arial'");
+	this.text.lineHeight = 52;
 	this.text.parent = this;
 	this.text.setTransform(38.15,15.7);
 
@@ -1244,8 +1244,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text(">", "50px 'Rubik SemiBold'");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text(">", "50px 'Arial'");
+	this.text.lineHeight = 52;
 	this.text.parent = this;
 	this.text.setTransform(42.3,15.7);
 
@@ -1844,7 +1844,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_3
 	this.shape = new cjs.Shape();
-	this.shape.graphics.lf(["#4528B8","#457CEC"],[0,1],-177.3,-102.4,177.4,102.4).s().p("EgAJAgAQmhgCl7ijQlviekakcQkbkdiZlwQifl+ACmfQACmhCjl7QCdlvEdkaQEdkaFwiaQF+ieGfABQGhACF8CjQFuCeEaEcQEaEdCaFwQCfF+gCGfQgCGhijF7QidFvkdEaQkdEalwCaQl5CdmbAAIgJAAg");
+	this.shape.graphics.lf(["#4528B8","#457CEC"],[0,1],-177.3,-102.4,177.4,102.4).s().p("EgAJAgAQmggCl8ijQlviekakcQkbkdiZlwQifl+ACmfQACmhCjl7QCdlvEdkaQEdkaFwiaQF+ieGfABQGhACF8CjQFuCeEaEcQEaEdCaFwQCfF+gCGfQgCGhijF7QidFvkdEaQkdEalwCaQl5CdmbAAIgJAAg");
 	this.shape.setTransform(205.1,204.75);
 
 	var maskedShapeInstanceList = [this.shape];
@@ -1963,10 +1963,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.txt_start = new cjs.Text("ЭХЛЭХ", "bold 57px 'Rubik'", "#FFFFFF");
+	this.txt_start = new cjs.Text("ЭХЛЭХ", "57px 'Arial'", "#FFFFFF");
 	this.txt_start.name = "txt_start";
 	this.txt_start.textAlign = "center";
-	this.txt_start.lineHeight = 69;
+	this.txt_start.lineHeight = 59;
 	this.txt_start.lineWidth = 351;
 	this.txt_start.parent = this;
 	this.txt_start.setTransform(-2.45,-29.65);
@@ -1994,10 +1994,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.txt_start = new cjs.Text("БУЦАХ", "bold 57px 'Rubik'", "#FFFFFF");
+	this.txt_start = new cjs.Text("БУЦАХ", "57px 'Arial'", "#FFFFFF");
 	this.txt_start.name = "txt_start";
 	this.txt_start.textAlign = "center";
-	this.txt_start.lineHeight = 69;
+	this.txt_start.lineHeight = 59;
 	this.txt_start.lineWidth = 351;
 	this.txt_start.parent = this;
 	this.txt_start.setTransform(-2.45,-29.65);
@@ -2362,8 +2362,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("?", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("?", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 33;
 	this.text.parent = this;
 	this.text.setTransform(8.2,12.25);
@@ -2390,8 +2390,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("?", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("?", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 33;
 	this.text.parent = this;
 	this.text.setTransform(8.15,12.3);
@@ -2418,8 +2418,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("?", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("?", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 33;
 	this.text.parent = this;
 	this.text.setTransform(8.2,12.25);
@@ -2446,8 +2446,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("?", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("?", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 33;
 	this.text.parent = this;
 	this.text.setTransform(8.15,12.25);
@@ -2474,8 +2474,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("2", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("2", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 33;
 	this.text.parent = this;
 	this.text.setTransform(7.3,13.25);
@@ -2502,8 +2502,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("5", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("5", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 33;
 	this.text.parent = this;
 	this.text.setTransform(8.1,12.75);
@@ -2530,8 +2530,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("0", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("0", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 34;
 	this.text.parent = this;
 	this.text.setTransform(7.55,12.75);
@@ -2558,8 +2558,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("8", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("8", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 34;
 	this.text.parent = this;
 	this.text.setTransform(7.5,12.75);
@@ -2586,8 +2586,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.text = new cjs.Text("4", "bold 50px 'Rubik'", "#003366");
-	this.text.lineHeight = 61;
+	this.text = new cjs.Text("4", "50px 'Arial'", "#003366");
+	this.text.lineHeight = 52;
 	this.text.lineWidth = 34;
 	this.text.parent = this;
 	this.text.setTransform(7,12.25);
@@ -4676,6 +4676,7 @@ if (reversed == null) { reversed = false; }
 			var a = loadSound(s);
 			if (a) { a.pause(); a.currentTime = 0; a.play().catch(function() {}); }
 		};
+		
 		exportRoot.playInstruction = function() {
 			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; }
 			currentInstructionAudio = loadSound("instruction");
@@ -5011,7 +5012,48 @@ if (reversed == null) { reversed = false; }
 			var sound = loadSound(soundName);
 			if (sound) { sound.pause(); sound.currentTime = 0; sound.play().catch(function () {}); }
 		};
+		
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_"+exportRoot.currentExerciseId+"_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
+		
+		
 		exportRoot.playInstruction = function () {
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
 			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; }
 			currentInstructionAudio = loadSound("instruction");
 			if (currentInstructionAudio) currentInstructionAudio.play().catch(function () {});
@@ -5530,7 +5572,48 @@ if (reversed == null) { reversed = false; }
 				catch (function () {});
 			}
 		};
+		
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex02_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
+		
+		
 		exportRoot.playInstruction = function () {
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
 			if (currentInstructionAudio) {
 				currentInstructionAudio.pause();
 				currentInstructionAudio.currentTime = 0;
@@ -5983,7 +6066,48 @@ if (reversed == null) { reversed = false; }
 		}
 		var currentInstructionAudio = null;
 		exportRoot.playExerciseSound = function(s) { var a = loadSound(s); if (a) { a.pause(); a.currentTime = 0; a.play().catch(function(){}); } };
-		exportRoot.playInstruction   = function() { if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; } currentInstructionAudio = loadSound("instruction"); if (currentInstructionAudio) currentInstructionAudio.play().catch(function(){}); };
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex03_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
+		
+		exportRoot.playInstruction   = function() { 
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
+			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; } currentInstructionAudio = loadSound("instruction"); if (currentInstructionAudio) currentInstructionAudio.play().catch(function(){}); 
+		};
 		exportRoot.stopInstruction   = function() { if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; currentInstructionAudio = null; } };
 		
 		// =====================================================
@@ -6391,7 +6515,45 @@ if (reversed == null) { reversed = false; }
 			var a = loadSound(s);
 			if (a) { a.pause(); a.currentTime = 0; a.play().catch(function () {}); }
 		};
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex04_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
 		exportRoot.playInstruction = function () {
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
 			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; }
 			currentInstructionAudio = loadSound("instruction");
 			if (currentInstructionAudio) currentInstructionAudio.play().catch(function () {});
@@ -6783,7 +6945,45 @@ if (reversed == null) { reversed = false; }
 			var a = loadSound(s);
 			if (a) { a.pause(); a.currentTime = 0; a.play().catch(function() {}); }
 		};
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex05_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
 		exportRoot.playInstruction = function() {
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
 			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; }
 			currentInstructionAudio = loadSound("instruction");
 			if (currentInstructionAudio) currentInstructionAudio.play().catch(function() {});
@@ -7207,7 +7407,47 @@ if (reversed == null) { reversed = false; }
 		}
 		var currentInstructionAudio = null;
 		exportRoot.playExerciseSound = function(s) { var a = loadSound(s); if (a) { a.pause(); a.currentTime = 0; a.play().catch(function(){}); } };
-		exportRoot.playInstruction   = function() { if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; } currentInstructionAudio = loadSound("instruction"); if (currentInstructionAudio) currentInstructionAudio.play().catch(function(){}); };
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex06_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
+		exportRoot.playInstruction   = function() { 
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
+			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; } currentInstructionAudio = loadSound("instruction"); if (currentInstructionAudio) currentInstructionAudio.play().catch(function(){}); 
+		};
 		exportRoot.stopInstruction   = function() { if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; currentInstructionAudio = null; } };
 		
 		function setKids(state) {
@@ -7511,7 +7751,47 @@ if (reversed == null) { reversed = false; }
 		}
 		var currentInstructionAudio = null;
 		exportRoot.playExerciseSound = function(s) { var a = loadSound(s); if (a) { a.pause(); a.currentTime = 0; a.play().catch(function(){}); } };
-		exportRoot.playInstruction   = function() { if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; } currentInstructionAudio = loadSound("instruction"); if (currentInstructionAudio) currentInstructionAudio.play().catch(function(){}); };
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex07_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
+		exportRoot.playInstruction   = function() { 
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
+			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; } currentInstructionAudio = loadSound("instruction"); if (currentInstructionAudio) currentInstructionAudio.play().catch(function(){}); 
+		};
 		exportRoot.stopInstruction   = function() { if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; currentInstructionAudio = null; } };
 		
 		// =====================================================
@@ -7895,7 +8175,45 @@ if (reversed == null) { reversed = false; }
 			var a = loadSound(s);
 			if (a) { a.pause(); a.currentTime = 0; a.play().catch(function() {}); }
 		};
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex08_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
 		exportRoot.playInstruction = function() {
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
 			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; }
 			currentInstructionAudio = loadSound("instruction");
 			if (currentInstructionAudio) currentInstructionAudio.play().catch(function() {});
@@ -8316,7 +8634,45 @@ if (reversed == null) { reversed = false; }
 			var a = loadSound(s);
 			if (a) { a.pause(); a.currentTime = 0; a.play().catch(function() {}); }
 		};
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex09_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
 		exportRoot.playInstruction = function() {
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
 			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; }
 			currentInstructionAudio = loadSound("instruction");
 			if (currentInstructionAudio) currentInstructionAudio.play().catch(function() {});
@@ -8779,7 +9135,45 @@ if (reversed == null) { reversed = false; }
 			var a = loadSound(s);
 			if (a) { a.pause(); a.currentTime = 0; a.play().catch(function() {}); }
 		};
+		const playSignVideo = function () {
+		    // өмнө нь байвал устгана (давхардахгүй)
+		    let oldVideo = document.getElementById("signVideoPlayer");
+		    if (oldVideo) {
+		        oldVideo.pause();
+		        oldVideo.remove();
+		    }
+		
+		    // video element үүсгэх
+		    let video = document.createElement("video");
+		    video.id = "signVideoPlayer";
+		    video.src = "./videos/sign/lesson01_ex10_dohio.mp4"; // 👈 өөрийн path
+		    video.autoplay = true;
+		    video.controls = true;
+		
+		    // style (баруун доод буланд)
+		    video.style.position = "fixed";
+		    video.style.bottom = "20px";
+		    video.style.right = "20px";
+		    video.style.width = "300px";
+		    video.style.height = "auto";
+		    video.style.zIndex = "9999";
+		    video.style.borderRadius = "12px";
+		    video.style.boxShadow = "0 4px 12px rgba(0,0,0,0.3)";
+		    video.style.background = "#000";
+		
+		    // document дээр нэмэх
+		    document.body.appendChild(video);
+		
+		    // дуусахад өөрөө алга болно
+		    video.onended = function () {
+		        video.remove();
+		    };
+		};
 		exportRoot.playInstruction = function() {
+			if (exportRoot.gameState.selectedLanguage === 'sign') {
+				playSignVideo();
+				return;
+			}
 			if (currentInstructionAudio) { currentInstructionAudio.pause(); currentInstructionAudio.currentTime = 0; }
 			currentInstructionAudio = loadSound("instruction");
 			if (currentInstructionAudio) currentInstructionAudio.play().catch(function() {});
@@ -9849,18 +10243,18 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Emoji_result).wait(5).to({_off:false},0).to({_off:true},19).wait(1));
 
 	// title
-	this.txt_instruction = new cjs.Text("INST", "32px 'Roboto'");
+	this.txt_instruction = new cjs.Text("INST", "32px 'Arial'");
 	this.txt_instruction.name = "txt_instruction";
 	this.txt_instruction.textAlign = "center";
-	this.txt_instruction.lineHeight = 40;
+	this.txt_instruction.lineHeight = 34;
 	this.txt_instruction.lineWidth = 1382;
 	this.txt_instruction.parent = this;
 	this.txt_instruction.setTransform(1007.85,368.15);
 
-	this.txt_title = new cjs.Text("TITLE", "bold 50px 'Rubik'", "#FFFFFF");
+	this.txt_title = new cjs.Text("TITLE", "50px 'Arial'", "#FFFFFF");
 	this.txt_title.name = "txt_title";
 	this.txt_title.textAlign = "center";
-	this.txt_title.lineHeight = 61;
+	this.txt_title.lineHeight = 52;
 	this.txt_title.lineWidth = 843;
 	this.txt_title.parent = this;
 	this.txt_title.setTransform(1011.15,139.65);
@@ -9897,28 +10291,28 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next}]},5).to({state:[{t:this.voice_btn},{t:this.help_btn},{t:this.home_btn},{t:this.btn_back},{t:this.btn_next}]},18).to({state:[]},1).wait(1));
 
 	// text
-	this.text = new cjs.Text(" 8-ийн цифр", "35px 'Roboto'");
+	this.text = new cjs.Text(" 8-ийн цифр", "35px 'Arial'");
 	this.text.textAlign = "right";
-	this.text.lineHeight = 39;
+	this.text.lineHeight = 33;
 	this.text.lineWidth = 444;
 	this.text.parent = this;
 	this.text.setTransform(771.1,796.5);
 
-	this.text_1 = new cjs.Text("-ын оронд, ", "35px 'Roboto'");
-	this.text_1.lineHeight = 39;
+	this.text_1 = new cjs.Text("-ын оронд, ", "35px 'Arial'");
+	this.text_1.lineHeight = 33;
 	this.text_1.lineWidth = 449;
 	this.text_1.parent = this;
 	this.text_1.setTransform(1138.45,711.7);
 
-	this.text_2 = new cjs.Text(" 7-ийн цифр", "35px 'Roboto'");
+	this.text_2 = new cjs.Text(" 7-ийн цифр", "35px 'Arial'");
 	this.text_2.textAlign = "right";
-	this.text_2.lineHeight = 39;
+	this.text_2.lineHeight = 33;
 	this.text_2.lineWidth = 444;
 	this.text_2.parent = this;
 	this.text_2.setTransform(771.1,714.1);
 
-	this.text_3 = new cjs.Text("-ын оронд байна.", "35px 'Roboto'");
-	this.text_3.lineHeight = 39;
+	this.text_3 = new cjs.Text("-ын оронд байна.", "35px 'Arial'");
+	this.text_3.lineHeight = 33;
 	this.text_3.lineWidth = 448;
 	this.text_3.parent = this;
 	this.text_3.setTransform(1138.95,792.55);
@@ -9943,7 +10337,7 @@ if (reversed == null) { reversed = false; }
 	this.drag_digit_4.name = "drag_digit_4";
 	this.drag_digit_4.setTransform(881.5,692.15,1,1,0,0,0,24.5,40.3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_3},{t:this.text_2,p:{x:771.1,y:714.1,text:" 7-ийн цифр",font:"35px 'Roboto'",textAlign:"right",lineHeight:39,lineWidth:444,color:"#000000"}},{t:this.text_1,p:{x:1138.45,y:711.7,text:"-ын оронд, ",font:"35px 'Roboto'",textAlign:"",lineHeight:39,lineWidth:449,color:"#000000"}},{t:this.text,p:{x:771.1,y:796.5,text:" 8-ийн цифр",font:"35px 'Roboto'",textAlign:"right",lineHeight:39,lineWidth:444,color:"#000000"}}]},5).to({state:[{t:this.text_2,p:{x:532.8,y:750.1,text:"Дөчин мянга тавь",font:"37px 'Rubik'",textAlign:"center",lineHeight:31.85,lineWidth:350,color:"#000000"}},{t:this.text_1,p:{x:1005.5,y:754,text:"Дөрвөн мянга тав",font:"37px 'Rubik'",textAlign:"center",lineHeight:31.85,lineWidth:350,color:"#000000"}},{t:this.text,p:{x:1481.35,y:751.8,text:"Дөчин мянга тав",font:"37px 'Rubik'",textAlign:"center",lineHeight:31.85,lineWidth:350,color:"#000000"}}]},2).to({state:[{t:this.text_1,p:{x:819.3,y:849.5,text:"ҮНЭН",font:"38px 'Rubik SemiBold'",textAlign:"center",lineHeight:47.05,lineWidth:107,color:"#000000"}},{t:this.text,p:{x:1184.65,y:849.5,text:"ХУДАЛ",font:"38px 'Rubik SemiBold'",textAlign:"center",lineHeight:47.05,lineWidth:134,color:"#000000"}}]},2).to({state:[]},2).to({state:[{t:this.text_2,p:{x:485.45,y:523.9,text:"10000\nхүч",font:"36px 'Rubik SemiBold'",textAlign:"center",lineHeight:22.65,lineWidth:177,color:"#002E7A"}},{t:this.text_1,p:{x:917.75,y:523.25,text:"30000\nхүч",font:"36px 'Rubik SemiBold'",textAlign:"center",lineHeight:22.65,lineWidth:177,color:"#002E7A"}},{t:this.text,p:{x:1393.15,y:521.85,text:"50000\nхүч",font:"36px 'Rubik SemiBold'",textAlign:"center",lineHeight:22.65,lineWidth:177,color:"#002E7A"}}]},4).to({state:[{t:this.text_2,p:{x:519.1,y:739.75,text:"91040 гэсэн тоог “Ерэн нэгэн мянга дөч” гэж уншаад, арван мянгатаар тоймловол 90000 болно.",font:"25px 'Rubik Light'",textAlign:"center",lineHeight:31.6,lineWidth:371,color:"#000000"}},{t:this.text_1,p:{x:978.1,y:732.25,text:"91040 гэсэн тоог “Ерэн нэгэн мянга дөрвөн зуу” гэж уншаад, арван мянгатаар тоймловол 90000 болно.",font:"25px 'Rubik Light'",textAlign:"center",lineHeight:31.6,lineWidth:377,color:"#000000"}},{t:this.text,p:{x:1434.05,y:734.8,text:"91040 гэсэн тоог “Ерэн нэгэн мянга дөч” гэж уншаад, арван мянгатаар тоймловол 100000 болно.",font:"25px 'Rubik Light'",textAlign:"center",lineHeight:31.6,lineWidth:373,color:"#000000"}}]},2).to({state:[]},1).to({state:[{t:this.text,p:{x:770.35,y:500.2,text:"Жаран \nдолоон \nмянга \nдөрвөн \nзуун ер",font:"bold 45px 'Rubik'",textAlign:"center",lineHeight:37.3,lineWidth:178,color:"#FFFFFF"}}]},1).to({state:[{t:this.text_2,p:{x:751.6,y:519.1,text:"НУУЦ АРАЛ руу",font:"bold 50px 'Rubik'",textAlign:"",lineHeight:61.25,lineWidth:397,color:"#003366"}},{t:this.text_1,p:{x:753.3,y:590.45,text:"нэвтрэх шидэт тасалбар",font:"bold 31px 'Rubik'",textAlign:"",lineHeight:38.75,lineWidth:393,color:"#003366"}},{t:this.text,p:{x:1213,y:542.75,text:"Мянгатын \nорон нь сондгой тоо,                                    \nзуутын орон нь 0,\nаравтын орон нь 8,                                            \nнэгжийн орон нь 4  ",font:"bold 31px 'Rubik'",textAlign:"",lineHeight:38.75,lineWidth:323,color:"#003366"}},{t:this.drag_digit_4},{t:this.drag_digit_8},{t:this.drag_digit_0},{t:this.drag_digit_5},{t:this.drag_digit_2}]},2).to({state:[]},2).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.text_3},{t:this.text_2,p:{x:771.1,y:714.1,text:" 7-ийн цифр",font:"35px 'Arial'",textAlign:"right",lineHeight:33,lineWidth:444,color:"#000000"}},{t:this.text_1,p:{x:1138.45,y:711.7,text:"-ын оронд, ",font:"35px 'Arial'",textAlign:"",lineHeight:33,lineWidth:449,color:"#000000"}},{t:this.text,p:{x:771.1,y:796.5,text:" 8-ийн цифр",font:"35px 'Arial'",textAlign:"right",lineHeight:33,lineWidth:444,color:"#000000"}}]},5).to({state:[{t:this.text_2,p:{x:532.8,y:750.1,text:"Дөчин мянга тавь",font:"37px 'Arial'",textAlign:"center",lineHeight:25,lineWidth:350,color:"#000000"}},{t:this.text_1,p:{x:1005.5,y:754,text:"Дөрвөн мянга тав",font:"37px 'Arial'",textAlign:"center",lineHeight:25,lineWidth:350,color:"#000000"}},{t:this.text,p:{x:1481.35,y:751.8,text:"Дөчин мянга тав",font:"37px 'Arial'",textAlign:"center",lineHeight:25,lineWidth:350,color:"#000000"}}]},2).to({state:[{t:this.text_1,p:{x:819.3,y:849.5,text:"ҮНЭН",font:"38px 'Arial'",textAlign:"center",lineHeight:40,lineWidth:107,color:"#000000"}},{t:this.text,p:{x:1184.65,y:849.5,text:"ХУДАЛ",font:"38px 'Arial'",textAlign:"center",lineHeight:40,lineWidth:134,color:"#000000"}}]},2).to({state:[]},2).to({state:[{t:this.text_2,p:{x:485.45,y:523.9,text:"10000\nхүч",font:"36px 'Arial'",textAlign:"center",lineHeight:16,lineWidth:177,color:"#002E7A"}},{t:this.text_1,p:{x:917.75,y:523.25,text:"30000\nхүч",font:"36px 'Arial'",textAlign:"center",lineHeight:16,lineWidth:177,color:"#002E7A"}},{t:this.text,p:{x:1393.15,y:521.85,text:"50000\nхүч",font:"36px 'Arial'",textAlign:"center",lineHeight:16,lineWidth:177,color:"#002E7A"}}]},4).to({state:[{t:this.text_2,p:{x:519.1,y:739.75,text:"91040 гэсэн тоог “Ерэн нэгэн мянга дөч” гэж уншаад, арван мянгатаар тоймловол 90000 болно.",font:"25px 'Arial'",textAlign:"center",lineHeight:27,lineWidth:371,color:"#000000"}},{t:this.text_1,p:{x:978.1,y:732.25,text:"91040 гэсэн тоог “Ерэн нэгэн мянга дөрвөн зуу” гэж уншаад, арван мянгатаар тоймловол 90000 болно.",font:"25px 'Arial'",textAlign:"center",lineHeight:27,lineWidth:377,color:"#000000"}},{t:this.text,p:{x:1434.05,y:734.8,text:"91040 гэсэн тоог “Ерэн нэгэн мянга дөч” гэж уншаад, арван мянгатаар тоймловол 100000 болно.",font:"25px 'Arial'",textAlign:"center",lineHeight:27,lineWidth:373,color:"#000000"}}]},2).to({state:[]},1).to({state:[{t:this.text,p:{x:770.35,y:500.2,text:"Жаран \nдолоон \nмянга \nдөрвөн \nзуун ер",font:"45px 'Arial'",textAlign:"center",lineHeight:29,lineWidth:166,color:"#FFFFFF"}}]},1).to({state:[{t:this.text_2,p:{x:751.6,y:519.1,text:"НУУЦ АРАЛ руу",font:"50px 'Arial'",textAlign:"",lineHeight:52,lineWidth:380,color:"#003366"}},{t:this.text_1,p:{x:753.3,y:590.45,text:"нэвтрэх шидэт тасалбар",font:"31px 'Arial'",textAlign:"",lineHeight:33,lineWidth:393,color:"#003366"}},{t:this.text,p:{x:1213,y:542.75,text:"Мянгатын \nорон нь сондгой тоо,                                    \nзуутын орон нь 0,\nаравтын орон нь 8,                                            \nнэгжийн орон нь 4  ",font:"31px 'Arial'",textAlign:"",lineHeight:33,lineWidth:323,color:"#003366"}},{t:this.drag_digit_4},{t:this.drag_digit_8},{t:this.drag_digit_0},{t:this.drag_digit_5},{t:this.drag_digit_2}]},2).to({state:[]},2).wait(2));
 
 	// target
 	this.btn_choice_6 = new lib.btn_choice_4();
@@ -10122,9 +10516,9 @@ if (reversed == null) { reversed = false; }
 	this.instance_6 = new lib.Ssss19("synched",0);
 	this.instance_6.setTransform(819.3,866,1,1,0,0,0,133,40);
 
-	this.text_4 = new cjs.Text("Г. 7500", "38px 'Rubik SemiBold'");
+	this.text_4 = new cjs.Text("Г. 7500", "38px 'Arial'");
 	this.text_4.textAlign = "center";
-	this.text_4.lineHeight = 47;
+	this.text_4.lineHeight = 40;
 	this.text_4.lineWidth = 235;
 	this.text_4.parent = this;
 	this.text_4.setTransform(1552.4,843.6);
@@ -10133,12 +10527,12 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_d.name = "btn_answer_d";
 	this.btn_answer_d.setTransform(1549.85,865.1);
 
-	this.instance_7 = new lib.CachedBmp_10();
+	this.instance_7 = new lib.CachedBmp_18();
 	this.instance_7.setTransform(1415.55,823.75,0.5,0.5);
 
-	this.text_5 = new cjs.Text("В. 7000", "38px 'Rubik SemiBold'");
+	this.text_5 = new cjs.Text("В. 7000", "38px 'Arial'");
 	this.text_5.textAlign = "center";
-	this.text_5.lineHeight = 47;
+	this.text_5.lineHeight = 40;
 	this.text_5.lineWidth = 235;
 	this.text_5.parent = this;
 	this.text_5.setTransform(1552.4,739.1);
@@ -10147,12 +10541,12 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_c.name = "btn_answer_c";
 	this.btn_answer_c.setTransform(1549.85,760.6);
 
-	this.instance_8 = new lib.CachedBmp_10();
+	this.instance_8 = new lib.CachedBmp_18();
 	this.instance_8.setTransform(1415.55,719.25,0.5,0.5);
 
-	this.text_6 = new cjs.Text("Б. 8500", "38px 'Rubik SemiBold'");
+	this.text_6 = new cjs.Text("Б. 8500", "38px 'Arial'");
 	this.text_6.textAlign = "center";
-	this.text_6.lineHeight = 47;
+	this.text_6.lineHeight = 40;
 	this.text_6.lineWidth = 235;
 	this.text_6.parent = this;
 	this.text_6.setTransform(1552.4,633.4);
@@ -10161,13 +10555,13 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_b.name = "btn_answer_b";
 	this.btn_answer_b.setTransform(1549.85,654.9);
 
-	this.instance_9 = new lib.CachedBmp_10();
+	this.instance_9 = new lib.CachedBmp_18();
 	this.instance_9.setTransform(1415.55,613.55,0.5,0.5);
 
-	this.btn_label_a = new cjs.Text("A. 8000", "38px 'Rubik SemiBold'");
+	this.btn_label_a = new cjs.Text("A. 8000", "38px 'Arial'");
 	this.btn_label_a.name = "btn_label_a";
 	this.btn_label_a.textAlign = "center";
-	this.btn_label_a.lineHeight = 47;
+	this.btn_label_a.lineHeight = 40;
 	this.btn_label_a.lineWidth = 235;
 	this.btn_label_a.parent = this;
 	this.btn_label_a.setTransform(1551.4,525.85);
@@ -10176,7 +10570,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_a.name = "btn_answer_a";
 	this.btn_answer_a.setTransform(1549.85,547.35);
 
-	this.instance_10 = new lib.CachedBmp_10();
+	this.instance_10 = new lib.CachedBmp_18();
 	this.instance_10.setTransform(1415.55,506,0.5,0.5);
 
 	this.ex5_btn_gt = new lib.ex5_buttons();
@@ -10232,21 +10626,21 @@ if (reversed == null) { reversed = false; }
 	this.stone1.name = "stone1";
 	this.stone1.setTransform(969.75,649);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]},3).to({state:[]},1).to({state:[{t:this.instance_6},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.btn_true},{t:this.btn_false}]},5).to({state:[{t:this.instance_10},{t:this.btn_answer_a},{t:this.btn_label_a},{t:this.instance_9},{t:this.btn_answer_b},{t:this.text_6,p:{x:1552.4,y:633.4,text:"Б. 8500",font:"38px 'Rubik SemiBold'",lineHeight:47.05,lineWidth:235}},{t:this.instance_8},{t:this.btn_answer_c},{t:this.text_5,p:{x:1552.4,y:739.1,text:"В. 7000",font:"38px 'Rubik SemiBold'",lineHeight:47.05,lineWidth:235}},{t:this.instance_7},{t:this.btn_answer_d},{t:this.text_4,p:{x:1552.4,y:843.6,text:"Г. 7500",font:"38px 'Rubik SemiBold'",lineHeight:47.05,lineWidth:235}}]},2).to({state:[{t:this.ex5_btn_lt},{t:this.ex5_btn_eq},{t:this.ex5_btn_gt}]},2).to({state:[{t:this.drag_10000},{t:this.drag_30000},{t:this.drag_50000}]},2).to({state:[{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.text_6,p:{x:521.7,y:686.8,text:"А",font:"bold 24px 'Rubik'",lineHeight:16.45,lineWidth:38}},{t:this.text_5,p:{x:977.15,y:681.1,text:"Б",font:"bold 24px 'Rubik'",lineHeight:16.45,lineWidth:38}},{t:this.text_4,p:{x:1433.05,y:678.1,text:"В",font:"bold 24px 'Rubik'",lineHeight:16.45,lineWidth:38}}]},2).to({state:[]},1).to({state:[{t:this.stone1},{t:this.stone2},{t:this.stone3},{t:this.stone4},{t:this.stone5}]},5).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]},3).to({state:[]},1).to({state:[{t:this.instance_6},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.btn_true},{t:this.btn_false}]},5).to({state:[{t:this.instance_10},{t:this.btn_answer_a},{t:this.btn_label_a},{t:this.instance_9},{t:this.btn_answer_b},{t:this.text_6,p:{x:1552.4,y:633.4,text:"Б. 8500",font:"38px 'Arial'",lineHeight:40,lineWidth:235}},{t:this.instance_8},{t:this.btn_answer_c},{t:this.text_5,p:{x:1552.4,y:739.1,text:"В. 7000",font:"38px 'Arial'",lineHeight:40,lineWidth:235}},{t:this.instance_7},{t:this.btn_answer_d},{t:this.text_4,p:{x:1552.4,y:843.6,text:"Г. 7500",font:"38px 'Arial'",lineHeight:40,lineWidth:235}}]},2).to({state:[{t:this.ex5_btn_lt},{t:this.ex5_btn_eq},{t:this.ex5_btn_gt}]},2).to({state:[{t:this.drag_10000},{t:this.drag_30000},{t:this.drag_50000}]},2).to({state:[{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.text_6,p:{x:521.7,y:686.8,text:"А",font:"24px 'Arial'",lineHeight:12,lineWidth:38}},{t:this.text_5,p:{x:977.15,y:681.1,text:"Б",font:"24px 'Arial'",lineHeight:12,lineWidth:38}},{t:this.text_4,p:{x:1433.05,y:678.1,text:"В",font:"24px 'Arial'",lineHeight:12,lineWidth:38}}]},2).to({state:[]},1).to({state:[{t:this.stone1},{t:this.stone2},{t:this.stone3},{t:this.stone4},{t:this.stone5}]},5).to({state:[]},1).wait(1));
 
 	// textinput
-	this.txt_main_title = new cjs.Text("TITLE", "bold 60px 'Rubik'", "#38019A");
+	this.txt_main_title = new cjs.Text("TITLE", "60px 'Arial'", "#38019A");
 	this.txt_main_title.name = "txt_main_title";
 	this.txt_main_title.textAlign = "center";
-	this.txt_main_title.lineHeight = 73;
+	this.txt_main_title.lineHeight = 62;
 	this.txt_main_title.lineWidth = 923;
 	this.txt_main_title.parent = this;
 	this.txt_main_title.setTransform(966.05,372.45);
 
-	this.txt_subtitle = new cjs.Text("SUB TITLE", "48px 'Rubik Light'", "#38019A");
+	this.txt_subtitle = new cjs.Text("SUB TITLE", "48px 'Arial'", "#38019A");
 	this.txt_subtitle.name = "txt_subtitle";
 	this.txt_subtitle.textAlign = "center";
-	this.txt_subtitle.lineHeight = 59;
+	this.txt_subtitle.lineHeight = 50;
 	this.txt_subtitle.lineWidth = 1294;
 	this.txt_subtitle.parent = this;
 	this.txt_subtitle.setTransform(955.75,479.7);
@@ -10383,46 +10777,46 @@ if (reversed == null) { reversed = false; }
 	this.btn_voice.setTransform(441.7,412.95,0.7243,0.681,0,0,0,0.6,0.3);
 	new cjs.ButtonHelper(this.btn_voice, 0, 1, 2);
 
-	this.txt_grade = new cjs.Text("3 ДУГААР АНГИ", "40px 'Rubik'", "#38019A");
+	this.txt_grade = new cjs.Text("3 ДУГААР АНГИ", "40px 'Arial'", "#38019A");
 	this.txt_grade.name = "txt_grade";
 	this.txt_grade.textAlign = "center";
-	this.txt_grade.lineHeight = 49;
+	this.txt_grade.lineHeight = 42;
 	this.txt_grade.lineWidth = 326;
 	this.txt_grade.parent = this;
 	this.txt_grade.setTransform(962.3,657.9);
 
-	this.txt_subject = new cjs.Text("МАТЕМАТИК", "40px 'Rubik Medium'", "#38019A");
+	this.txt_subject = new cjs.Text("МАТЕМАТИК", "40px 'Arial'", "#38019A");
 	this.txt_subject.name = "txt_subject";
 	this.txt_subject.textAlign = "center";
-	this.txt_subject.lineHeight = 49;
+	this.txt_subject.lineHeight = 42;
 	this.txt_subject.lineWidth = 326;
 	this.txt_subject.parent = this;
 	this.txt_subject.setTransform(962.3,604.9);
 
-	this.txt_sign = new cjs.Text("ДОХИО", "40px 'Rubik'", "#998DBF");
+	this.txt_sign = new cjs.Text("ДОХИО", "40px 'Arial'", "#998DBF");
 	this.txt_sign.name = "txt_sign";
-	this.txt_sign.lineHeight = 49;
+	this.txt_sign.lineHeight = 42;
 	this.txt_sign.lineWidth = 187;
 	this.txt_sign.parent = this;
 	this.txt_sign.setTransform(1223.5,941.8);
 
-	this.txt_tuva = new cjs.Text("ТУВА", "40px 'Rubik'", "#998DBF");
+	this.txt_tuva = new cjs.Text("ТУВА", "40px 'Arial'", "#998DBF");
 	this.txt_tuva.name = "txt_tuva";
-	this.txt_tuva.lineHeight = 49;
+	this.txt_tuva.lineHeight = 42;
 	this.txt_tuva.lineWidth = 165;
 	this.txt_tuva.parent = this;
 	this.txt_tuva.setTransform(996.7,941.8);
 
-	this.txt_kz = new cjs.Text("КАЗАК", "40px 'Rubik'", "#998DBF");
+	this.txt_kz = new cjs.Text("КАЗАК", "40px 'Arial'", "#998DBF");
 	this.txt_kz.name = "txt_kz";
-	this.txt_kz.lineHeight = 49;
+	this.txt_kz.lineHeight = 42;
 	this.txt_kz.lineWidth = 156;
 	this.txt_kz.parent = this;
 	this.txt_kz.setTransform(746.2,941.8);
 
-	this.txt_mn = new cjs.Text("МОНГОЛ", "40px 'Rubik'", "#998DBF");
+	this.txt_mn = new cjs.Text("МОНГОЛ", "40px 'Arial'", "#998DBF");
 	this.txt_mn.name = "txt_mn";
-	this.txt_mn.lineHeight = 49;
+	this.txt_mn.lineHeight = 42;
 	this.txt_mn.lineWidth = 201;
 	this.txt_mn.parent = this;
 	this.txt_mn.setTransform(463.45,941.8);
@@ -10441,10 +10835,10 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_37 = new lib.lesson_bg();
 
-	this.txt_start = new cjs.Text("ЭХЛЭХ", "bold 57px 'Rubik'", "#FFFFFF");
+	this.txt_start = new cjs.Text("ЭХЛЭХ", "57px 'Arial'", "#FFFFFF");
 	this.txt_start.name = "txt_start";
 	this.txt_start.textAlign = "center";
-	this.txt_start.lineHeight = 69;
+	this.txt_start.lineHeight = 59;
 	this.txt_start.lineWidth = 226;
 	this.txt_start.parent = this;
 	this.txt_start.setTransform(960.5,768.45);
@@ -10485,20 +10879,20 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/lesson_01_atlas_1.png", id:"lesson_01_atlas_1"},
-		{src:"images/lesson_01_atlas_2.png", id:"lesson_01_atlas_2"},
-		{src:"images/lesson_01_atlas_3.png", id:"lesson_01_atlas_3"},
-		{src:"images/lesson_01_atlas_4.png", id:"lesson_01_atlas_4"},
-		{src:"images/lesson_01_atlas_5.png", id:"lesson_01_atlas_5"},
-		{src:"images/lesson_01_atlas_6.png", id:"lesson_01_atlas_6"},
-		{src:"images/lesson_01_atlas_7.png", id:"lesson_01_atlas_7"},
-		{src:"images/lesson_01_atlas_8.png", id:"lesson_01_atlas_8"},
-		{src:"images/lesson_01_atlas_9.png", id:"lesson_01_atlas_9"},
-		{src:"images/lesson_01_atlas_10.png", id:"lesson_01_atlas_10"},
-		{src:"images/lesson_01_atlas_11.png", id:"lesson_01_atlas_11"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js", id:"an.TextInput"}
+		{src:"images/lesson_01_atlas_1.png?1777707338107", id:"lesson_01_atlas_1"},
+		{src:"images/lesson_01_atlas_2.png?1777707338108", id:"lesson_01_atlas_2"},
+		{src:"images/lesson_01_atlas_3.png?1777707338108", id:"lesson_01_atlas_3"},
+		{src:"images/lesson_01_atlas_4.png?1777707338108", id:"lesson_01_atlas_4"},
+		{src:"images/lesson_01_atlas_5.png?1777707338108", id:"lesson_01_atlas_5"},
+		{src:"images/lesson_01_atlas_6.png?1777707338108", id:"lesson_01_atlas_6"},
+		{src:"images/lesson_01_atlas_7.png?1777707338108", id:"lesson_01_atlas_7"},
+		{src:"images/lesson_01_atlas_8.png?1777707338108", id:"lesson_01_atlas_8"},
+		{src:"images/lesson_01_atlas_9.png?1777707338108", id:"lesson_01_atlas_9"},
+		{src:"images/lesson_01_atlas_10.png?1777707338108", id:"lesson_01_atlas_10"},
+		{src:"images/lesson_01_atlas_11.png?1777707338108", id:"lesson_01_atlas_11"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1777707338149", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1777707338149", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1777707338149", id:"an.TextInput"}
 	],
 	preloads: []
 };
