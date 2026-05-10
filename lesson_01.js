@@ -37,21 +37,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_49 = function() {
 	this.initialize(ss["lesson_01_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_48 = function() {
 	this.initialize(ss["lesson_01_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_41 = function() {
+(lib.CachedBmp_53 = function() {
 	this.initialize(ss["lesson_01_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -3395,7 +3395,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(6).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(11).to({startPosition:0},0).to({_off:true},1).wait(20));
 
 	// Od_2
-	this.instance_1 = new lib.CachedBmp_6();
+	this.instance_1 = new lib.CachedBmp_49();
 	this.instance_1.setTransform(9.95,11.1,0.4578,0.4578);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(19).to({_off:true},1).wait(20));
@@ -3447,7 +3447,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(10).to({startPosition:1},0).wait(2).to({startPosition:0},0).wait(1).to({startPosition:0},0).to({_off:true},1).wait(14));
 
 	// Od_1
-	this.instance_1 = new lib.CachedBmp_5();
+	this.instance_1 = new lib.CachedBmp_48();
 	this.instance_1.setTransform(9.4,9.55,0.473,0.473);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(25).to({_off:true},1).wait(14));
@@ -4003,7 +4003,7 @@ if (reversed == null) { reversed = false; }
 					alpha: 0
 				}, 80).call(function () {
 					exportRoot.alpha = 1;
-					exportRoot.gotoAndStop(1);
+					exportRoot.gotoAndStop(15);
 				});
 			});
 		}
@@ -11817,7 +11817,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_d.name = "btn_answer_d";
 	this.btn_answer_d.setTransform(1549.85,865.1);
 
-	this.instance_7 = new lib.CachedBmp_41();
+	this.instance_7 = new lib.CachedBmp_53();
 	this.instance_7.setTransform(1415.55,823.75,0.5,0.5);
 
 	this.text_1 = new cjs.Text("В. 7000", "38px 'Rubik SemiBold'");
@@ -11831,7 +11831,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_c.name = "btn_answer_c";
 	this.btn_answer_c.setTransform(1549.85,760.6);
 
-	this.instance_8 = new lib.CachedBmp_41();
+	this.instance_8 = new lib.CachedBmp_53();
 	this.instance_8.setTransform(1415.55,719.25,0.5,0.5);
 
 	this.text_2 = new cjs.Text("Б. 8500", "38px 'Rubik SemiBold'");
@@ -11845,7 +11845,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_b.name = "btn_answer_b";
 	this.btn_answer_b.setTransform(1549.85,654.9);
 
-	this.instance_9 = new lib.CachedBmp_41();
+	this.instance_9 = new lib.CachedBmp_53();
 	this.instance_9.setTransform(1415.55,613.55,0.5,0.5);
 
 	this.btn_label_a = new cjs.Text("A. 8000", "38px 'Rubik SemiBold'");
@@ -11860,7 +11860,7 @@ if (reversed == null) { reversed = false; }
 	this.btn_answer_a.name = "btn_answer_a";
 	this.btn_answer_a.setTransform(1549.85,547.35);
 
-	this.instance_10 = new lib.CachedBmp_41();
+	this.instance_10 = new lib.CachedBmp_53();
 	this.instance_10.setTransform(1415.55,506,0.5,0.5);
 
 	this.ex5_btn_gt = new lib.ex5_buttons();
@@ -12169,20 +12169,20 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/lesson_01_atlas_1.png", id:"lesson_01_atlas_1"},
-		{src:"images/lesson_01_atlas_2.png", id:"lesson_01_atlas_2"},
-		{src:"images/lesson_01_atlas_3.png", id:"lesson_01_atlas_3"},
-		{src:"images/lesson_01_atlas_4.png", id:"lesson_01_atlas_4"},
-		{src:"images/lesson_01_atlas_5.png", id:"lesson_01_atlas_5"},
-		{src:"images/lesson_01_atlas_6.png", id:"lesson_01_atlas_6"},
-		{src:"images/lesson_01_atlas_7.png", id:"lesson_01_atlas_7"},
-		{src:"images/lesson_01_atlas_8.png", id:"lesson_01_atlas_8"},
-		{src:"images/lesson_01_atlas_9.png", id:"lesson_01_atlas_9"},
-		{src:"images/lesson_01_atlas_10.png", id:"lesson_01_atlas_10"},
-		{src:"images/lesson_01_atlas_11.png", id:"lesson_01_atlas_11"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js", id:"an.TextInput"}
+		{src:"images/lesson_01_atlas_1.png?1778406926771", id:"lesson_01_atlas_1"},
+		{src:"images/lesson_01_atlas_2.png?1778406926772", id:"lesson_01_atlas_2"},
+		{src:"images/lesson_01_atlas_3.png?1778406926772", id:"lesson_01_atlas_3"},
+		{src:"images/lesson_01_atlas_4.png?1778406926773", id:"lesson_01_atlas_4"},
+		{src:"images/lesson_01_atlas_5.png?1778406926773", id:"lesson_01_atlas_5"},
+		{src:"images/lesson_01_atlas_6.png?1778406926773", id:"lesson_01_atlas_6"},
+		{src:"images/lesson_01_atlas_7.png?1778406926773", id:"lesson_01_atlas_7"},
+		{src:"images/lesson_01_atlas_8.png?1778406926773", id:"lesson_01_atlas_8"},
+		{src:"images/lesson_01_atlas_9.png?1778406926774", id:"lesson_01_atlas_9"},
+		{src:"images/lesson_01_atlas_10.png?1778406926774", id:"lesson_01_atlas_10"},
+		{src:"images/lesson_01_atlas_11.png?1778406926774", id:"lesson_01_atlas_11"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1778406927113", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1778406927113", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1778406927113", id:"an.TextInput"}
 	],
 	preloads: []
 };
