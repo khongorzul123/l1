@@ -9,17 +9,32 @@
 
     // Check if blind mode is enabled
     function isBlindMode() {
-        if (!window.exportRoot) return false;
-        return window.exportRoot.isBlindMode && window.exportRoot.isBlindMode();
+        // Use the existing blindModeActive function from exportRoot
+        if (window.exportRoot && window.exportRoot.blindModeActive) {
+            return window.exportRoot.blindModeActive();
+        }
+        
+        // Fallback: Check if selectedLanguage is "blind"
+        if (window.exportRoot && window.exportRoot.gameState) {
+            return window.exportRoot.gameState.selectedLanguage === "blind";
+        }
+        
+        return false;
     }
 
-    // Speech synthesis helper
+    // Speech synthesis helper (uses exportRoot.announce if available)
     function speak(text) {
+        if (window.exportRoot && window.exportRoot.announce) {
+            window.exportRoot.announce(text);
+            return;
+        }
+        
+        // Fallback to direct speech synthesis
         if ('speechSynthesis' in window) {
             window.speechSynthesis.cancel();
             var utterance = new SpeechSynthesisUtterance(text);
             utterance.lang = 'mn-MN';
-            utterance.rate = 0.9;
+            utterance.rate = 0.85;
             window.speechSynthesis.speak(utterance);
         }
         console.log('[Blind Mode]:', text);
@@ -112,7 +127,6 @@
                 speak('Сонголт хийнэ үү');
                 return;
             }
-            // Correct answer logic here
             speak('Зөв! Дараагийн дасгал руу шилжиж байна.');
             setTimeout(function() {
                 if (window.exportRoot) exportRoot.gotoAndStop(exportRoot.currentFrame + 1);
@@ -148,9 +162,6 @@
         document.addEventListener('keydown', function ex3Handler(e) {
             if (e.key === '1') document.getElementById('ex3_true').click();
             if (e.key === '2') document.getElementById('ex3_false').click();
-            if (e.key === 'Enter') {
-                document.removeEventListener('keydown', ex3Handler);
-            }
         });
     }
 
@@ -319,7 +330,6 @@
 
         document.getElementById('ex9_submit').onclick = function() {
             var answer = document.getElementById('ex9_input').value.trim();
-            // Possible answers based on puzzle
             if (answer === '50084' || answer === '20084') {
                 speak('Зөв! Дараагийн дасгал руу шилжиж байна.');
                 setTimeout(function() {
